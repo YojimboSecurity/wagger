@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for file in $(find . -name "*.go"); do
+    goimports -w $file
+    gofmt -w $file
+done

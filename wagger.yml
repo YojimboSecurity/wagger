@@ -1,0 +1,16 @@
+#https://draculatheme.com/contribute
+highlight:
+  error:
+    color: "#282a36" # dracula black
+    background: "#ff5555" # dracula red
+    bold: true
+  exception:
+    color: "#ff79c6" # dracula pink
+    background: "#282a36" # dracula background
+    bold: false
+  fail:
+    color: "#ff5555" # dracula yellow
+    background: "#f1fa8c" # dracula red
+    bold: false
+ignore:
+  - "this is a test"

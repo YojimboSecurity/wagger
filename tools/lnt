@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "GoLint"
+golint ./...
+echo "Shadow"
+shadow -v -strict $(go list ./... )
+echo "GoCritic"
+gocritic check -enableAll $(go list ./... )
+echo "StaticCheck"
+staticcheck $(go list ./... )
+echo "Go vet"
+go vet $(go list ./... )
