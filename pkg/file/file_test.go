@@ -1,8 +1,8 @@
 package file_test
 
 import (
-	"wagger/pkg/file"
 	"testing"
+	"wagger/pkg/file"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -72,11 +72,10 @@ var _ = Describe("Reading file", func() {
 	})
 
 	When("fixing strings", func() {
-		
+
 	})
 
 	When("ignoring strings", func() {
-		
 
 	})
 })
