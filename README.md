@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://github.com/yojimbosecurity/wagger">
     <!-- Please provide path to your logo here -->
-    <img src="docs/images/log.jpg" alt="Logo" width="300" height="500">
+    <img src="docs/images/hippo_pooping.gif" alt="Logo" width="300" height="500">
   </a>
 </h1>
 
